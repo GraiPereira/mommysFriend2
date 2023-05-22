@@ -1,0 +1,30 @@
+.testimonio {
+    width: 330px;
+    height: 420px;
+    margin: 12px;
+    padding: 12px;
+    background-color: $fondo-amarillo;
+    border-radius: 90px 35px 90px 35px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    -webkit-caja-sombra: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    -moz-caja-sombra: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    h4 {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $texto-rosado;
+    }
+    p {
+        font-size: 14px;
+        padding: 0px 50px;
+        text-align: left;
+    }
+}
+#testimonios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    margin: 50px;
+}

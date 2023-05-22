@@ -1,0 +1,38 @@
+#talleres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    h4 {
+        color: $texto-morado;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        color: $texto-rosado;
+    }
+}
+.talleres {
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    padding: 12px;
+    border-radius: 90px 35px 90px 35px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    -webkit-caja-sombra: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    -moz-caja-sombra: 10px 10px 5px 0px rgba(0,0,0,0.53);
+    background-color: aliceblue;
+}
+.carousel {
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    margin: auto;
+    bottom: 25px;
+}
